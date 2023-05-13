@@ -1,0 +1,59 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+  
+.nav-link{
+   position: relative;
+       font-size: 1.2rem;
+            text-decoration: none;
+            padding: 10px;
+            color: black;
+           font-family: 'Henny Penny'; 
+           cursor: pointer;
+}
+
+.nav-link:active{
+    color: #FFCD00;
+}
+
+
+.nav-link:hover::after{
+   content: '';
+   opacity: 1;
+}
+
+.nav-link::after{
+    opacity: 0;
+    transition: all 0.2s;
+    height: 2px;
+   width: 100%;
+   background-color:#FFCD00;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+    content: '';
+}
+
+
+   #quizstyle {
+            color: blueviolet;
+            font-size: 1.4rem;
+            border: 1px solid black;
+        }
+   
+
+
+
+
+
+
+
+
+
+
+
+
+        #quizstyle {
+            color: blueviolet;
+            font-size: 1.4rem;
+        }

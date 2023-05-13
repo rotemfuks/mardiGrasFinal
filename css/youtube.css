@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.youCon{
+   padding: 15px 9%; 
+    padding-bottom: 50px;
+}
+
+.youCon .youHeading{
+   text-align: center;
+  padding-top: 15px;
+  font-family: 'Pattaya', sans-serif;
+   color: black;
+  font-size: 80px;
+   
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.youCon .youHeading:hover{
+    transform: scale(1.1);
+}
+
+.youCon .youBox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px, 1fr));
+    gap: 15px;
+}
+
+iframe{
+    width:270px;
+}
+
+@media (max-width:768px){
+    .youCon{
+  
+      padding-left: 108px;
+    }
+}
+
+

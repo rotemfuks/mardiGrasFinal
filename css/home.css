@@ -1,0 +1,95 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+.c-item{
+height: 550px;
+}
+
+.c-img{
+height: 100%;
+object-fit: cover;
+filter: brightness(0.6);
+}
+
+.h5title{
+    font-size: 6rem;
+    text-decoration: underline;
+    color: #F2F2F2;
+       font-family: 'Pattaya', sans-serif;
+
+}
+
+.h5title:hover{
+
+padding-left: 8px;
+}
+
+.para{
+    font-size: 1.4rem;
+    color: #F2F2F2;
+     font-family: 'Henny Penny', cursive;
+
+}
+
+.para:hover{
+   padding-left: 8px; 
+}
+
+
+
+
+.imgMobile{
+height: 500px;
+width: 100%;
+display: none;
+   position: relative;
+            text-align: center;
+            color: white;
+
+}
+
+.cover{
+         position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 90px;
+            color: #F2F2F2;
+             font-family: "Pattaya", sans-serif;
+}
+
+.imgMardiMobile{
+height: 100%;
+width: 100%;
+object-fit: cover;
+filter: brightness(0.6);
+ object-fit: cover;
+filter: brightness(0.6);
+
+        }
+
+
+
+@media(max-width: 767px){
+.imgMobile{
+ display: block;
+}
+#caro{
+    display: none;
+}
+
+
+}
+
+@media(max-width: 574px){
+.imgMobile{
+    display: block;
+}
+#caro{
+    display: none;
+}
+
+}
+
+

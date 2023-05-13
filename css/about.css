@@ -1,0 +1,68 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #firstTitle{
+    text-align: center;
+    color: black;
+  font-size: 80px;
+    font-family: 'Pattaya'; 
+      text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #firstTitle:hover{
+     transform: scale(1.1);
+  }
+
+  .aboutcon{
+    width: 75%;
+    margin: auto;
+  }
+
+  .aboutTitle{
+    padding-top: 10px;
+    padding-bottom: 10px;
+font-size: 23px;
+    text-decoration: underline #FFCD00;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  
+
+  .aboutPara{
+     padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+ 
+  }
+
+  /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
+/* @media screen and (min-width: 601px) {
+   #firstTitle{
+    font-size: 80px;
+  }
+    .aboutTitle{
+    font-size: 30px;
+  }
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px 
+@media screen and (max-width: 600px) {
+  #firstTitle {
+    font-size: 60px;
+  }
+  .aboutTitle{
+    font-size: 22px;
+  }
+} */

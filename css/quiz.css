@@ -1,0 +1,118 @@
+ @import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+  background: rgb(169,82,160);
+background: linear-gradient(90deg, rgba(169,82,160,1) 7%, rgba(255,205,0,1) 97%);
+
+   
+}
+
+ .app{
+    background-color: #A852A9;
+    width: 100%;
+    max-width: 800px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px; 
+  
+}  
+
+.app h1{
+   font-size: 40px;
+    color:#fff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+    font-family: 'Pattaya'; 
+}
+
+.quiz{
+padding: 20px 0; 
+}
+
+.quiz h2{
+    font-size: 20px;
+color:#fff;
+font-weight: 550;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    background: #fff;
+    color:#000;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align:left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn:hover:not([disabled]){
+    background: #70C02D;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+background: #001e4d; 
+color:#fff;
+font-weight: 500;
+width: 150px;
+border: 0;
+padding: 10px;
+margin: 20px auto 0;
+border-radius: 4px;
+cursor: pointer;
+display: block;
+}
+
+.correct{
+    background: #9aeabc;
+}
+.incorrect{
+    background: #ff9393;
+}
+
+#button{
+    font-family: 'Pattaya'; 
+    background-color: #A852A9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration:none;
+    transition: all 0.3s ease-in-out;
+    margin-top: 50px;
+ border-radius: 12px;
+
+}
+
+#button:hover {
+    background-color: #ab7eac;
+    color: #fff;
+}
+
+
+
+
+
+

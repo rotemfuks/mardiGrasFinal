@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card img {
+  height: 14rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
+.btn {
+  color: #000;
+  background-color: #FFCD00;
+  border: 1px solid #000;
+  padding: 10px 35px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #FFCD00;
+  border: 1.5px solid #000;
+}
+
+.card {
+  background-color: #F2F2F2;
+  height: 470px;
+}
+
+.grid {
+  display: grid;
+  row-gap: 17px;
+  width: 90%;
+  padding-left: 8vw;
+  -moz-column-gap: 17px;
+       column-gap: 17px;
+  padding-bottom: 40px;
+}
+@media (min-width: 690px) {
+  .grid {
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 960px) {
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media (min-width: 1200px) {
+  .grid {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+
+/*.grid{
+  display: grid;
+  padding: 16px;
+  grid-gap: 16px;
+
+
+  @media (min-width:768px) {
+    grid-template-columns:(2, 1fr);
+  }
+  @media (min-width:960px) {
+    grid-template-columns:(3, 1fr);
+  }
+
+  @media (min-width:1200px) {
+    grid-template-columns:(4, 1fr);
+  }
+
+
+  .card{
+    background-color:pink;
+    margin-bottom: 16px;
+    padding: 16px;
+ }
+}
+*/
+/* MODAL */
+.modal-content {
+  background-color: #F2F2F2;
+}
+
+.modal-title {
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Pattaya", sans-serif;
+}
+
+.modal-body {
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
+.modal-content img {
+  width: 31.1rem;
+  height: 17rem;
+}
+
+.modal-footer .btn {
+  color: #000;
+  background-color: #FFCD00;
+  border: 1px solid #000;
+  padding: 10px 35px;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.sponsers_title {
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Pattaya", sans-serif;
+  color: black;
+  font-size: 80px;
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.sponsers_title:hover {
+  transform: scale(1.1);
+}
+
+.sponsers_text {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #646262;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=cards.css.map */
